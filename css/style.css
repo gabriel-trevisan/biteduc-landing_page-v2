@@ -1,6 +1,12 @@
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url('../fonts/SourceSansPro-Regular.ttf') format('truetype'); /* Caminho para o arquivo */
+}
+
 body {
-    background-color: #1c1c1e;
-    color: #f5f5f7;
+    background-color: #161616;
+    color: #ffffff;
+    font-family: 'Source Sans Pro';
 }
 .hero {
     background: linear-gradient(90deg, #3e3e3e, #2b2b2d);
@@ -40,4 +46,13 @@ a.text-decoration-none {
 }
 a.text-decoration-none:hover {
     text-decoration: underline;
+}
+
+.navbar-brand {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.nav-item .nav-link {
+    font-size: 16px;
 }
