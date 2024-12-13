@@ -56,3 +56,20 @@ a.text-decoration-none:hover {
 .nav-item .nav-link {
     font-size: 16px;
 }
+
+.btn-hero {
+    background-color: #bebebe;
+    color: #000;
+    border: none;
+    border-radius: 20px;
+    padding: 12px 30px;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    width: 400px;
+}
+  
+.btn-hero:hover {
+    background-color: #ffffff;
+    color: #000;
+}
